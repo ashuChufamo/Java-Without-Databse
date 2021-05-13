@@ -1,0 +1,56 @@
+AnchorPane{
+     -fx-background-color:#263238;
+     -fx-box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+     -fx-border-radius: 5px;
+}
+#loginBoarder{
+    -fx-background-color:#b41919;
+    -fx-box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+    -fx-border-radius: 15px;
+}
+.text-field{
+      -fx-background-color:transparent;
+      -fx-border-color: #01579b;
+      -fx-border-width:0px 0px 3px 0px;
+      -fx-margin:5px 0px 0px 0px;
+      -fx-text-fill: white;
+      -fx-font-size: 15px;
+
+}
+.button{
+ -fx-background-color:#2ca59e;
+-fx-text-fill: white;  
+
+}
+.button:hover{
+      -fx-background-color:white;
+      -fx-text-fill: #133295 ;
+}
+.text-field:focused{
+    -fx-border-color: #28de8f;
+
+    }
+
+
+#ucl {
+   -fx-background-color:transparent;
+   -fx-text-fill:#d500f9;
+   -fx-font-size:15px;
+
+}
+#ucl:hover {
+      -fx-background-color:white;
+      -fx-text-fill:red;
+
+
+}
+#pcl{
+-fx-background-color:transparent;
+       -fx-text-fill:#d500f9;
+       -fx-font-size:15px;
+}
+#pcl:hover {
+      -fx-background-color:white;
+       -fx-text-fill:red;
+
+}
